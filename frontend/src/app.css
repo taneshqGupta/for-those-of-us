@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+
+@plugin "daisyui" {
+    themes: all;
+}
+
+:root {
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: medium;
+}
+
+body,
+html {
+    font-family: "Radley", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: medium;
+}
+
+.fancy-heading-font {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dropdown-content {
+    z-index: 99999 !important;
+}
+
+.dropdown .dropdown-content {
+    z-index: 99999 !important;
+}
+
+[data-theme] .dropdown-content,
+.theme-controller+.dropdown-content {
+    z-index: 99999 !important;
+}
+
+:global(.leaflet-container) {
+    z-index: 1 !important;
+}
+
+:global(.leaflet-control-container) {
+    z-index: 1000 !important;
+}
+
+:global(.dropdown .dropdown-content) {
+    z-index: 99999 !important;
+}
