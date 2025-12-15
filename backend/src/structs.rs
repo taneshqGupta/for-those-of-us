@@ -39,7 +39,7 @@ pub struct NewPost {
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct NewPostForm {
     pub description: String,
-    pub categories: String, // JSON string that will be parsed to Vec<String>
+    pub categories: String, 
     pub post_type: PostType,
     pub pin_code: Option<String>,
 }
