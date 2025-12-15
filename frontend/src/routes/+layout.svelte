@@ -52,12 +52,12 @@
             <a
                 href="/"
                 class="btn btn-ghost font-bold text-2xl whitespace-nowrap"
-                aria-label="Go to SkillSwap homepage"
+                aria-label="Go to For Those Of Us homepage"
             >
                 <span class="not-lg:hidden"
-                    >Skill-Swap: Learn, Teach, Socialise</span
+                    >For Those Of Us</span
                 >
-                <span class="lg:hidden">Skill-Swap</span>
+                <span class="lg:hidden">For Those Of Us</span>
             </a>
         </h1>
         <a href="/offer" class="not-md:hidden btn btn-soft btn-sm m-2"
