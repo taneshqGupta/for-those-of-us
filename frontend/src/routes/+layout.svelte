@@ -115,7 +115,7 @@
             class="grid-flow-col gap-4 md:place-self-center md:justify-self-end"
         >
             <a
-                href="https://github.com/taneshqGupta/rust-svelte-template"
+                href="https://github.com/taneshqGupta/for-those-of-us"
                 class="link link-hover flex items-center gap-1"
                 target="_blank"
                 rel="noopener noreferrer"
